@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  width: 100%;
+}
+
+.leftSidebar {
+  width: 220px;
+
+  @media (max-width: 859px) {
+    display: none;
+  }
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.rightSidebar {
+  width: 320px;
+
+  @media (max-width: 1180px) {
+    display: none;
+  }
+}
+
+.contentWrapper {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
